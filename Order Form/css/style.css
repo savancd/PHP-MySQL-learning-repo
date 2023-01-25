@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+     overflow: hidden;
+     font-size: 16px;
+}
+
+:root {
+    --black: rgb(6, 14, 46);
+    --white: #f3f3f3;
+    --blue: #3b5998;
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1557683304-673a23048d34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=564&q=80);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+h1 {
+    margin: 20px auto;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    color: var(--white);
+}
+
+#wrapper {
+    background: var(--white);
+    width: 500px;
+    height: 400px;
+    max-width: 80%;
+    margin: 15% auto;
+   box-shadow: 0px 0px 3px 1px rgb(73, 73, 73);
+}
+
+form {
+   /* width: 400px;
+   height: 400px;
+   margin: 0 auto; */
+   padding: 20px;
+   margin: 10px;
+}
+
+table {
+  width: 95%;
+  margin: auto;
+  border: none;
+}
+
+tbody {
+    width: 100%;
+}
+
+tr, td {
+    display: flex;
+}
+
+td input {
+    margin: 0 auto;
+}
+
+td {
+  margin-right: 0;
+  width: 100%;
+}
+
+.headnm {
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+ .inputText {
+    font-size: 1.2rem;
+    padding: .6rem;
+ }
+
+input {
+    width: 100%;
+    border: none;
+    height: 1.8rem;
+}
+
+.submit {
+  width:79%;
+  margin: 10px auto 10px auto;
+  display: block;
+  background: var(--blue);
+  color: var(--white);
+}
+
+.submit:hover {
+    color: var(--black);
+    background: var(--white);
+    box-shadow: 0px 0px 3px 2px rgb(168, 167, 167);
+}

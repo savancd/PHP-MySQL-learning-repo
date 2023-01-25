@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="description" content="Order form for car parts"/>
+    <meta property="description" content="Order form for car parts"/>
+    <meta name="keywords" content="    Car parts, Order form, Auto parts, Vehicle parts, Automotive parts, Purchase form, Car accessories, Ordering system, Car components, Automotive industry ">
+    <meta name="author" content="Sava Maksimovic">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order form | Sava Maksimovic</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Order form</h1>
+        <hr>
+        <form action="processorder.php" method="post">
+            <table>
+                <tr>
+                    <td class="headnm">Item:</td>
+                    <td class="headnm">Quantity:</td>
+                </tr>
+                <tr>
+                    <td class="inputText">Tires</td>
+                    <td><input type="text" name="tyreqty"></td>
+                </tr>
+                <tr>
+                    <td class="inputText">Oil</td>
+                    <td><input type="text" name="oilqty"></td>
+                </tr>
+                <tr>
+                    <td class="inputText">Spark plugs</td>
+                    <td><input type="text" name="sparkqty"></td>
+                </tr>
+            </table>
+            <input class="submit" type="submit" value="Submit Order" />
+        </form>
+    </div>
+</body>
+</html>
